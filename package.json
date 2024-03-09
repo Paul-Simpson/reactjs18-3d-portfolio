@@ -8,7 +8,8 @@
     "build": "tsc && vite build",
     "preview": "vite preview",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
-    "ts:check": "tsc --noEmit"
+    "ts:check": "tsc --noEmit",
+    "start": "serve -s dist"
   },
   "dependencies": {
     "@emailjs/browser": "^3.10.0",
@@ -21,6 +22,7 @@
     "react-parallax-tilt": "^1.7.180",
     "react-router-dom": "^6.8.1",
     "react-vertical-timeline-component": "^3.6.0",
+    "serve": "^14.2.1",
     "three": "^0.149.0"
   },
   "devDependencies": {
