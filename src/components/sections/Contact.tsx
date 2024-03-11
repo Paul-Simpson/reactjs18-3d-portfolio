@@ -69,7 +69,7 @@ const Contact = () => {
     <div
       className={`flex flex-col-reverse gap-10 overflow-hidden xl:mt-12 xl:flex-row`}
     >
-      <motion.div
+      {/* <motion.div
         variants={slideIn("left", "tween", 0.2, 1)}
         className="bg-black-100 flex-[0.75] rounded-2xl p-8"
       >
@@ -108,7 +108,7 @@ const Contact = () => {
             {loading ? "Sending..." : "Send"}
           </button>
         </form>
-      </motion.div>
+      </motion.div> */}
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
