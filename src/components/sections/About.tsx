@@ -14,6 +14,7 @@ interface IServiceCard {
   icon: string;
 }
 
+
 const ServiceCard: React.FC<IServiceCard> = ({ index, title, icon }) => (
   <Tilt
     glareEnable
